@@ -1,0 +1,22 @@
+query AllPublicRespositories($queryString: String!, $recordsPerPage: Int!, $cursor: String) {
+    search(query: $queryString, type: REPOSITORY, first:$recordsPerPage, after:$cursor) {
+        repositoryCount
+        edges {
+            cursor
+            node {
+                ...RepositoryDetail
+            }
+        }
+    }
+}
+
+fragment RepositoryDetail on Repository {
+    id
+	name
+    nameWithOwner
+    isPrivate
+    createdAt
+    description
+    descriptionHTML
+    homepageUrl
+}

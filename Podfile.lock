@@ -1,0 +1,17 @@
+PODS:
+  - Apollo (0.5.6)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+
+DEPENDENCIES:
+  - Apollo
+  - NVActivityIndicatorView
+
+SPEC CHECKSUMS:
+  Apollo: 124ddbbca48acca75fd5f9ec5045454cb410bb31
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+
+PODFILE CHECKSUM: ad660dbd2676cb471f62782ae5b0338750fe4794
+
+COCOAPODS: 1.2.1
